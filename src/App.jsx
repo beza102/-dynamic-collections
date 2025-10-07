@@ -1,14 +1,25 @@
-import Header from './components/Header';
-import Details from './components/Details';
-import Footer from './components/Footer';
-import Card from './components/Card';
+//import data
+import './App.css';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import AlbumCard from "./components/AlbumCard";
+import albumsData from "./data/albumData"; 
 
-export default function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Card  />
-      <Footer />
-    </div>
+//render header and footer
+function App(){
+  return(
+    <>
+    <Header />
+    <main className="album-collection">
+      {albumsData.map((album, index) =>(
+        <AlbumCard
+          key={index}
+          album={album}
+        />
+      ))}
+    </main>
+    <Footer />
+    </>
   );
 }
+export default App;
