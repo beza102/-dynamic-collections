@@ -5,6 +5,8 @@ import AlbumDetails from "./AlbumDetails";
 function AlbumCard({ album }) {
   
   let cardClassName = "album-card";
+  //conditional
+
   if (album.rating >= 9.0) {
     cardClassName += " high-rating";
   }
