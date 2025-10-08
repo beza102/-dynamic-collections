@@ -2,21 +2,21 @@
 body {
   font-family: sans-serif;
   margin: 0;
-  background-color: #f4f4f9;
-  color: #333;
+  background-color: #fff6f9;
+  color: #444;
 }
 
 /* Header and Footer */
 .page-header {
-  background-color: #1abc9c;
+  background-color:#ffb6c1;;
   color: white;
   text-align: center;
   padding: 15px;
 }
 
 footer {
-  background-color: #34495e;
-  color: white;
+  background-color:  #ffd6dc;
+  color:  #555;
   text-align: center;
   padding: 10px;
 }
@@ -67,7 +67,7 @@ footer {
 }
 
 .grammy-badge {
-  background-color: #e74c3c;
+  background-color:#ff69b4;
   color: white;
 }
 
@@ -78,7 +78,7 @@ footer {
 
 .genre {
   display: inline-block;
-  background-color: #3498db;
+  background-color: #a4cce8;
   color: white;
   padding: 3px 8px;
   border-radius: 4px;
