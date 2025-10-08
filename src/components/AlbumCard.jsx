@@ -1,4 +1,5 @@
 import GenreTags from "./GenreTags";
+import AlbumDetails from "./AlbumDetails";
 
 
 function AlbumCard({ album }) {
