@@ -12,6 +12,7 @@ function App(){
     <Header />
     <main className="album-collection">
       {albumsData.map((album, index) =>(
+        //prop
         <AlbumCard
           key={index}
           album={album}

@@ -5,7 +5,8 @@ const albumData = [
     year: 2022,
     isGrammyWinner: true,
     genres: ["Pop", "Synth-pop"],
-    rating: 9.4
+    rating: 9.4,
+    link:"https://open.spotify.com/album/151w1FgRZfnKZA9FEcg9Z3?si=xbrDdVpdQ-eYr5tWpoOSQQ"
   },
   {
     title: "Renaissance",
@@ -14,6 +15,7 @@ const albumData = [
     isGrammyWinner: true,
     genres: ["Dance", "House", "R&B"],
     rating: 9.2
+    
   },
   {
     title: "SOUR",

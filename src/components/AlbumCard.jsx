@@ -6,7 +6,6 @@ function AlbumCard({ album }) {
   
   let cardClassName = "album-card";
   //conditional
-
   if (album.rating >= 9.0) {
     cardClassName += " high-rating";
   }
@@ -17,6 +16,7 @@ function AlbumCard({ album }) {
       <h3>{album.artist}</h3>
 
       <AlbumDetails
+      //prop
         year={album.year}
         rating={album.rating}
         isGrammyWinner={album.isGrammyWinner}

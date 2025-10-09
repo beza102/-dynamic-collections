@@ -6,9 +6,9 @@ export default function AlbumDetails ({year, rating, isGrammyWinner}){
 
    //conditional rendering for grammy badge
    if(isGrammyWinner){
-    grammyBadge =<span className="badge grammy-badge">GRAMMY WINNER</span>
+    grammyBadge =<span className="badge grammy-badge">GRAMMY WINNER🏆</span>
    }else{
-    grammyBadge =<span className="badge">No Grammy</span>
+    grammyBadge =<span className="badge">No Grammy😞</span>
    }
     
    //edge case for missing year
@@ -24,6 +24,7 @@ export default function AlbumDetails ({year, rating, isGrammyWinner}){
    }else{
     displayRating='Unrated';
    }
+   
 
     
     return(
