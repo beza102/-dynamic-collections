@@ -13,8 +13,8 @@ const albumData = [
     artist: "Beyoncé",
     year: 2022,
     isGrammyWinner: true,
-   
-    rating: 9.2
+    genres: ["Dance", "House", "R&B"],
+    
     
   },
   {
