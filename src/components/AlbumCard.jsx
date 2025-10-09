@@ -2,7 +2,7 @@ import GenreTags from "./GenreTags";
 import AlbumDetails from "./AlbumDetails";
 
 
-function AlbumCard({ album }) {
+function AlbumCard() {
   
   let cardClassName = "album-card";
   //conditional

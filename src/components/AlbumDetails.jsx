@@ -1,5 +1,5 @@
 //show year, rating, 
-export default function AlbumDetails ({year, rating, isGrammyWinner}){
+ function AlbumDetails (){
    let grammyBadge;
    let displayYear;
    let displayRating;
